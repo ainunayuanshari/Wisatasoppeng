@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".VisiMisi">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/toobargambar"
+        android:orientation="vertical" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="30dp"
+        android:text="VISI"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:text="PEMERINTAHAN YANG MELAYANI DAN LEBIH BAIK"
+        android:layout_marginLeft="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"
+        android:text="@string/visi" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="49dp"
+        android:layout_marginLeft="170dp"
+        android:layout_marginTop="30dp"
+        android:text="MISI"
+        android:textSize="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="29dp"
+        android:layout_marginLeft="50dp"
+        android:text="7 TEKAD PEMERINTAH YANG MELAYANI" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:layout_marginTop="2dp"
+        android:background="#5273AA"
+        android:text="~Memantapkan arah kebijakan pertanian yang melayani dan pro petani;"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#5273AA"
+        android:text="~Mewujudkan pendidikan unggul ( lebih baik ) dan murah serta berkeadilan bagi semua warga;" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="#5273AA"
+        android:text="~Menjadikan Kabupaten Soppeng yang lebih baik dalam pelayan publik;"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="#5273AA"
+        android:text="~Menata kepariwisataan dan transportasi publik yang baik dan nyaman;"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:background="#5273AA"
+        android:text="~Menciptakan tata kelola pemerintahan yang baik dan bersih dari korupsi;"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#5273AA"
+            android:text="~Menjamin ketersediaan sistem pelayanan kesehatan unggul ( lebih baik ) dan murah;" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="47dp"
+            android:background="#5273AA"
+            android:text="~Mendorong peningkatan kehidupan beragama serta partisipasi pemuda dan perempuan dalam pembangunan." />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="29dp"
+        android:layout_marginLeft="2dp"
+        android:layout_marginTop="20dp"
+        android:text="2 TEKAD MENJADIKAN SOPPENG LEBIH BAIK" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="~Menjadikan Kabupaten Soppeng sebagai pilar utama pembangunan Sulawesi Selatan;" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="~Menjadikan Kabuptaen Soppeng sebagai daerah yang nyaman dan terdepan dalam investasi." />
+
+
+
+</LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

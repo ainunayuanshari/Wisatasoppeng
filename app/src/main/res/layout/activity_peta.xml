@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Peta">
+
+    <fragment
+        android:id="@+id/maps"
+        android:layout_width="match_parent"
+        android:layout_height="550dp"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Navigasi"
+        android:id="@+id/Navigasi"
+        android:background="#ffffff"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/maps"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/colorPrimary"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/navigasi"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/judulkab"
+            android:text="Kabupaten Soppeng"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sulawesi selatan"
+            android:id="@+id/deskripsiTxt"/>
+    </LinearLayout>
+</RelativeLayout>

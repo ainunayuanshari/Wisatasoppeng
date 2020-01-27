@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/walpaper11"
+    android:orientation="vertical"
+    tools:context=".LokasiUmpungeng">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:id="@+id/maps"
+        android:name="com.google.android.gms.maps.SupportMapFragment"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Navigasi"
+        android:id="@+id/navigasi"
+        android:layout_marginTop="1dp"
+        android:layout_below="@+id/maps"
+        android:layout_alignParentRight="true"
+        android:textColor="#000000"
+        android:background="@drawable/border"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/navigasi"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/judulumpungeng"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:text="Desa Umpungeng TITIK nol INDONESIA"
+            android:textAppearance="@style/TextAppearance.MaterialComponents.Headline5" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Umpungeng, Lalabata, Soppeng Regency, South Sulawesi"
+            android:id="@+id/umpungengTxt"/>
+    </LinearLayout>
+</RelativeLayout>
+
+

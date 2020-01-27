@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.e.wisatasoppeng">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme.NoActionBar">
+        <activity android:name=".LokasiPurbakala"></activity>
+        <activity android:name=".LokasiRumahadat" />
+        <activity android:name=".LokasiWaduk" />
+        <activity android:name=".LokasiLejja" />
+        <activity android:name=".LokasiUmpungeng" />
+        <activity android:name=".LokasiVilla" />
+        <activity android:name=".LokasiTamkal" />
+        <activity android:name=".Rumahadat" />
+        <activity android:name=".Lejja" />
+        <activity android:name=".Peta" />
+        <activity android:name=".Tamanpurbakala" />
+        <activity android:name=".Legislatif" />
+        <activity android:name=".SelayangPandang" />
+        <activity android:name=".ArtiLambang" />
+        <activity android:name=".Bupati" />
+        <activity android:name=".VisiMisi" />
+        <activity android:name=".Sejarah" />
+        <activity android:name=".Eksekutif" />
+        <activity android:name=".Fasilitas" />
+        <activity android:name=".Profil" />
+        <activity android:name=".Berita" />
+        <activity android:name=".Waduk" />
+        <activity android:name=".Umpungeng" />
+        <activity android:name=".Villayuliana" />
+        <activity android:name=".Tamankalong" />
+        <activity
+            android:name=".Splash"
+            android:noHistory="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Home" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyD8ui9vdVfIx0v9fB5U2OFSl7e6OYlrxv8" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+    </application>
+
+</manifest>
