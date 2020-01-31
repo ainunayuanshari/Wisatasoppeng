@@ -10,7 +10,7 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.fragment.app.Fragment
 import com.bumptech.glide.Glide
-import com.e.wisatatasoppeng.*
+import com.e.wisatasoppeng.*
 import com.synnapps.carouselview.CarouselView
 import com.synnapps.carouselview.ImageListener
 import kotlinx.android.synthetic.main.activity_berita.*
@@ -77,6 +77,7 @@ class Home: Fragment(), View.OnClickListener {
         tampur.setOnClickListener {
             startActivity(Intent(activity, Tamanpurbakala::class.java))
         }
+
         buttonabout.setOnClickListener {
             startActivity(Intent(activity,About::class.java))
         }

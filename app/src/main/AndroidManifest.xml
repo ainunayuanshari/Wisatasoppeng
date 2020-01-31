@@ -15,6 +15,7 @@
         <activity android:name=".LokasiRumahadat" />
         <activity android:name=".LokasiWaduk" />
         <activity android:name=".LokasiLejja" />
+        <activity android:name=".About"/>
         <activity android:name=".LokasiUmpungeng" />
         <activity android:name=".LokasiVilla" />
         <activity android:name=".LokasiTamkal" />
