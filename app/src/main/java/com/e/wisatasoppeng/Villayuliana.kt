@@ -12,7 +12,6 @@ class Villayuliana : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_villayuliana)
         lokasivilla.setOnClickListener {
-            startActivity(Intent(this, LokasiVilla::class.java))
             val detail = Intent(this, LokasiVilla::class.java)
             detail.putExtra("judul", "Villa Yuliana Soppeng")
             detail.putExtra("deskripsi", "Soppeng Sulawesi Selatan")

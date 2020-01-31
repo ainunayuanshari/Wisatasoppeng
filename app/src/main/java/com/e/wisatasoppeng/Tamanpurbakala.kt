@@ -13,7 +13,6 @@ class Tamanpurbakala : AppCompatActivity() {
         setContentView(R.layout.activity_tamanpurbakala)
 
         lokasipurbakala.setOnClickListener {
-            startActivity(Intent(this, LokasiPurbakala::class.java))
             val detail = Intent(this, LokasiPurbakala::class.java)
             detail.putExtra("judul", "Taman Purbakala Soppeng")
             detail.putExtra("deskripsi", "soppeng sulawesi selatan")

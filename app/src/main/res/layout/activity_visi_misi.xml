@@ -60,40 +60,33 @@
         android:layout_width="wrap_content"
         android:layout_height="30dp"
         android:layout_marginTop="2dp"
-        android:background="#5273AA"
         android:text="~Memantapkan arah kebijakan pertanian yang melayani dan pro petani;"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="#5273AA"
         android:text="~Mewujudkan pendidikan unggul ( lebih baik ) dan murah serta berkeadilan bagi semua warga;" />
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:background="#5273AA"
         android:text="~Menjadikan Kabupaten Soppeng yang lebih baik dalam pelayan publik;"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:background="#5273AA"
         android:text="~Menata kepariwisataan dan transportasi publik yang baik dan nyaman;"/>
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="30dp"
-        android:background="#5273AA"
         android:text="~Menciptakan tata kelola pemerintahan yang baik dan bersih dari korupsi;"/>
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:background="#5273AA"
             android:text="~Menjamin ketersediaan sistem pelayanan kesehatan unggul ( lebih baik ) dan murah;" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="47dp"
-            android:background="#5273AA"
             android:text="~Mendorong peningkatan kehidupan beragama serta partisipasi pemuda dan perempuan dalam pembangunan." />
 
     <TextView

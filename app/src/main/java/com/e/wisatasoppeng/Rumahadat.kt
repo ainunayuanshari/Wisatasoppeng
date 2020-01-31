@@ -13,7 +13,6 @@ class Rumahadat : AppCompatActivity() {
         setContentView(R.layout.activity_rumahadat)
 
         lokasirumahadat.setOnClickListener {
-            startActivity(Intent(this, LokasiTamkal::class.java))
             val detail = Intent(this, LokasiTamkal::class.java)
             detail.putExtra("judul", "Rumah Adat SAO MARIO")
             detail.putExtra("deskripsi", "jl.poros, pangkajenne-soppeng, Laringgi, Mario Riawa, Kabupaten Soppeng, Sulawesi Selatan 9085jl.poros, pangkajenne-soppeng, Laringgi, Mario Riawa, Kabupaten Soppeng, Sulawesi Selatan 90852")

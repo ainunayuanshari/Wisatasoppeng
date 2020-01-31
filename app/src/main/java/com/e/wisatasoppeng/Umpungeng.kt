@@ -13,7 +13,6 @@ class Umpungeng : AppCompatActivity() {
         setContentView(R.layout.activity_umpungeng)
 
         lokasiumpungeng.setOnClickListener {
-            startActivity(Intent(this, LokasiUmpungeng::class.java))
             val detail = Intent(this, LokasiUmpungeng::class.java)
             detail.putExtra("judul", "Titik Nol Indonesia Umpungeng")
             detail.putExtra("deskripsi", "Umpungeng, Lalabata, Soppeng Regency, South Sulawesi")

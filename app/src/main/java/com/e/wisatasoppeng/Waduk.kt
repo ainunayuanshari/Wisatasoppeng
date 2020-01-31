@@ -13,7 +13,6 @@ class Waduk : AppCompatActivity() {
         setContentView(R.layout.activity_waduk)
 
         lokasiwaduk.setOnClickListener {
-            startActivity(Intent(this, LokasiTamkal::class.java))
             val detail = Intent(this, LokasiTamkal::class.java)
             detail.putExtra("judul", "Waduk Ompo Soppeng")
             detail.putExtra("deskripsi", "soppeng sulawesi selatan")

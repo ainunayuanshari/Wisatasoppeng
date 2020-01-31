@@ -18,7 +18,7 @@
         android:layout_height="wrap_content"
         android:text="Navigasi"
         android:id="@+id/Navigasi"
-        android:background="#ffffff"
+        android:background="@drawable/border"
         android:layout_marginTop="1dp"
         android:layout_below="@+id/maps"
         android:layout_alignParentRight="true"

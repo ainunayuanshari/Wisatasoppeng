@@ -91,7 +91,6 @@ class Home: Fragment(), View.OnClickListener {
 
         }
         buttonpeta.setOnClickListener {
-            startActivity(Intent(activity, Peta::class.java))
 
             val detail=Intent(activity,Peta::class.java)
             detail.putExtra("judul","Soppeng Regency")

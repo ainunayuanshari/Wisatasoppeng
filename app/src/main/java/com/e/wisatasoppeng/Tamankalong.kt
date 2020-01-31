@@ -24,7 +24,6 @@ class Tamankalong : AppCompatActivity() {
         setContentView(R.layout.activity_tamankalong)
 
         lokasitamkal.setOnClickListener {
-            startActivity(Intent(this,LokasiTamkal::class.java))
             val detail=Intent(this,LokasiTamkal::class.java)
             detail.putExtra("judul","Taman kalong soppeng")
             detail.putExtra("deskripsi","Botto, Lalabata, Soppeng Regency, South Sulawesi 90811")

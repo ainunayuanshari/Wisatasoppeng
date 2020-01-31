@@ -13,7 +13,6 @@ class Lejja : AppCompatActivity() {
         setContentView(R.layout.activity_lejja)
 
         lokasilejja.setOnClickListener {
-            startActivity(Intent(this, LokasiTamkal::class.java))
             val detail = Intent(this, LokasiTamkal::class.java)
             detail.putExtra("judul", "Permandian Air panas Lejja Soppeng")
             detail.putExtra("deskripsi", "Bulue, Mario Riawa, Soppeng Regency, South Sulawesi 90852")
