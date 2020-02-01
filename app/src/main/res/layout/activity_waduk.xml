@@ -28,9 +28,8 @@
             android:scaleType="fitXY"
             android:src="@drawable/waduk" />
         <Button
-            android:layout_width="100dp"
-            android:layout_height="69dp"
-            android:layout_marginLeft="300dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:id="@+id/lokasiwaduk"
             android:background="@drawable/buttonlokasi"/>
 

@@ -11,11 +11,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".LokasiPurbakala"></activity>
+        <activity android:name=".ZoomLayout"></activity>
+        <activity android:name=".LokasiPurbakala" />
         <activity android:name=".LokasiRumahadat" />
         <activity android:name=".LokasiWaduk" />
         <activity android:name=".LokasiLejja" />
-        <activity android:name=".About"/>
+        <activity android:name=".About" />
         <activity android:name=".LokasiUmpungeng" />
         <activity android:name=".LokasiVilla" />
         <activity android:name=".LokasiTamkal" />
@@ -48,13 +49,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".Home" />
-        <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
-        </activity>
+        <activity android:name=".MainActivity"></activity>
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"

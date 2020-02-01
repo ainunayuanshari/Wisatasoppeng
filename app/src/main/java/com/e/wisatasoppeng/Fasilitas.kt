@@ -6,6 +6,7 @@ import kotlinx.android.synthetic.main.activity_fasilitas.*
 
 class Fasilitas : AppCompatActivity() {
 
+
     private val imageList = arrayListOf(
     "https://4.bp.blogspot.com/-b9BQhZwHLVA/Wq9fIL87TiI/AAAAAAAAHik/Cd_5yg0brhokkAUN1fRwIz7IpAWVzFM7gCLcBGAs/s1600/a4e2db85-bc23-4310-a21b-cf4237345af0.jpg",
         "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAP5A1Rc3-Cp05yCkWW-10RUVdt2G85PT-5KAZruoc1hYOS0OYvw&s.jpg",
@@ -17,11 +18,23 @@ class Fasilitas : AppCompatActivity() {
         "https://soppengkab.go.id/wp-content/uploads/2017/07/14.jpg",
         "https://scontent-sjc3-1.cdninstagram.com/v/t51.2885-15/sh0.08/e35/p750x750/61171818_2317942981827866_1546853360141449461_n.jpg?_nc_ht=scontent-sjc3-1.cdninstagram.com&_nc_cat=102&_nc_ohc=sEzo6KGZOn4AX-wQUwa&oh=2e571f48d043d9dff44da82957adda7b&oe=5EA10FFD&ig_cache_key=MjA2MzM3NTMyODg1MTcxNDczMQ%3D%3D.2.jpg"
     )
+    private val judulzoom= arrayListOf(
+        "Triple 888 coffee",
+        "cafe The malaka",
+        "cafe waduk ompo",
+        "Hotel 888 ",
+        "Masjid Agung darussalam",
+        "Hotel ADA soppeng",
+        "Hotel Grand ASIA Soppeng",
+        "profil masjid agung",
+        "Masjid agung tampilan "
 
+    )
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_fasilitas)
-        val adapter= AdapterFasilitas(imageList)
+
+        val adapter= AdapterFasilitas(imageList,judulzoom)
         fasilitas.adapter=adapter
     }
 }

@@ -24,7 +24,8 @@
         android:orientation="vertical" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_width="match_parent"
         android:layout_height="49dp"
         android:layout_marginLeft="170dp"
         android:layout_marginTop="30dp"
@@ -32,19 +33,23 @@
         android:textSize="25dp" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:layout_width="match_parent"
         android:layout_height="32dp"
         android:text="PEMERINTAHAN YANG MELAYANI DAN LEBIH BAIK"
         android:layout_marginLeft="50dp"/>
 
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/border"
+        android:padding="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
         android:text="@string/visi" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:padding="10dp"
+        android:layout_width="match_parent"
         android:layout_height="49dp"
         android:layout_marginLeft="170dp"
         android:layout_marginTop="30dp"
@@ -52,44 +57,53 @@
         android:textSize="25dp" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:layout_width="match_parent"
         android:layout_height="29dp"
         android:layout_marginLeft="50dp"
         android:text="7 TEKAD PEMERINTAH YANG MELAYANI" />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="30dp"
-        android:layout_marginTop="2dp"
-        android:text="~Memantapkan arah kebijakan pertanian yang melayani dan pro petani;"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp"
+            android:padding="5dp"
+            android:text="~Memantapkan arah kebijakan pertanian yang melayani dan pro petani;" />
 
     <TextView
-        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="~Mewujudkan pendidikan unggul ( lebih baik ) dan murah serta berkeadilan bagi semua warga;" />
     <TextView
-        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:layout_width="match_parent"
         android:layout_height="30dp"
         android:text="~Menjadikan Kabupaten Soppeng yang lebih baik dalam pelayan publik;"/>
     <TextView
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="30dp"
         android:text="~Menata kepariwisataan dan transportasi publik yang baik dan nyaman;"/>
     <TextView
-        android:layout_width="wrap_content"
+        android:padding="5dp"
+        android:layout_width="match_parent"
         android:layout_height="30dp"
         android:text="~Menciptakan tata kelola pemerintahan yang baik dan bersih dari korupsi;"/>
 
         <TextView
-            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="~Menjamin ketersediaan sistem pelayanan kesehatan unggul ( lebih baik ) dan murah;" />
 
         <TextView
-            android:layout_width="wrap_content"
+            android:padding="5dp"
+            android:layout_width="match_parent"
             android:layout_height="47dp"
             android:text="~Mendorong peningkatan kehidupan beragama serta partisipasi pemuda dan perempuan dalam pembangunan." />
 
     <TextView
+        android:padding="5dp"
         android:layout_width="match_parent"
         android:layout_height="29dp"
         android:layout_marginLeft="2dp"
@@ -97,11 +111,13 @@
         android:text="2 TEKAD MENJADIKAN SOPPENG LEBIH BAIK" />
 
         <TextView
+            android:padding="5dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="~Menjadikan Kabupaten Soppeng sebagai pilar utama pembangunan Sulawesi Selatan;" />
 
         <TextView
+            android:padding="5dp"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:text="~Menjadikan Kabuptaen Soppeng sebagai daerah yang nyaman dan terdepan dalam investasi." />

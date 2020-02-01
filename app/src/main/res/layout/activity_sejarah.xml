@@ -36,7 +36,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="45dp"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="3dp"
@@ -54,7 +54,7 @@
             android:layout_width="376dp"
             android:layout_height="233dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="5dp"
             android:text="@string/asalmula"
             android:textSize="15dp" />
     </LinearLayout>
@@ -83,7 +83,7 @@
             android:layout_width="407dp"
             android:layout_height="612dp"
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="3dp"
+            android:layout_marginTop="5dp"
             android:text="@string/datupertama"
             android:textSize="15dp" />
     </LinearLayout>
